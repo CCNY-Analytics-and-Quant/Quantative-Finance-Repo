@@ -32,6 +32,24 @@
    ]
   },
   {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/Users/jcarlito/Documents/GitHub/Quantative-Finance-Repo/Finished_workbooks/EF\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "print(os.getcwd())"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
