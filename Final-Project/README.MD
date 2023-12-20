@@ -37,10 +37,13 @@ Berry Cox’s Alpha Generators are on the next page. I recommend beginning on th
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install xxx.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following packages.
 
 ```bash
-pip install xxx
+pip install pandas
+pip install yfinance
+pip install numpy
+pip install matplotlib
 ```
 
 ## Usage 
