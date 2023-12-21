@@ -9,11 +9,11 @@ Description: This project explores different metrics to help construct a risk an
 
 Note: Project one has its own repository. Currently working on moving it to this repository.
 
-## Project 2 - [Efficient Frontier](Efficient-Frontier)
+## Project 2 - [Efficient Frontier](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/tree/main/EF)
 
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. We explore how our selection of seven assets by calculating their individual risk/return value. Furthermore, these results get combined into the efficient frontier. The code implements and analayzes an efficient portfolio. 
 
-## Project 3 - [Final Project](Final-Project)
+## Project 3 - [Final Project](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/tree/main/Final)
 
 Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used Berry Cox's price momentum factors to select basket of assets for a long-short portfolio. 
 
