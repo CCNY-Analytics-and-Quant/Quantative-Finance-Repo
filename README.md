@@ -9,7 +9,11 @@ Description: This project explores different metrics to help construct a risk an
 
 Note: Project one has its own repository. Currently working on moving it to this repository.
 
+<<<<<<< HEAD
 ## Project 2 - [Efficient Frontier](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/tree/main/EF)
+=======
+## Project 3 - [Final-Project_NoteBook](/Final/final_project.ipynb)
+>>>>>>> parent of 14c436c (Update README.md)
 
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. We explore how our selection of seven assets by calculating their individual risk/return value. Furthermore, these results get combined into the efficient frontier. The code implements and analayzes an efficient portfolio. 
 
