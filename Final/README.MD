@@ -32,3 +32,19 @@ Step 7: Chart:
 ### Parting Thoughts: 
 Remember, we’ll work through all the Python and finance steps you need to understand to be able to calculate alpha factors. That being said, I’m not going to just give you everything – you’ll be responsible for determining the actual function for each factor and whether it’s a positive or negative factor.
 Berry Cox’s Alpha Generators are on the next page. I recommend beginning on this project sooner rather than later so you have time to experiment and research how to calculate the specific factors correctly as well as build your backtest.
+
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following packages.
+
+```bash
+pip install pandas
+pip install yfinance
+pip install numpy
+pip install matplotlib
+```
+
+## Usage 
+
