@@ -10,7 +10,7 @@ Description: Provide a concise description of the first project, including the o
 ## Project 2 - [Efficient Frontier Notebook](/EF/Efficient_Frontier.ipynb)
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. The code implements and analayzes an efficient portfolio. 
 
-## Project 3 - [Final-Project_NoteBook](/Final/final_project.ipynb)
+## Project 3 - [Final Project NoteBook](/Final/final_project.ipynb)
 
 Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy, backtested the data. The project serves as a culmination of the skills and knowledge acquired throughout the semester.
 
