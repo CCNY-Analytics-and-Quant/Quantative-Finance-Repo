@@ -7,11 +7,10 @@ Welcome to the Quantitative Finance repository for the Fall 2023 semester. This 
 
 Description: Provide a concise description of the first project, including the objectives, methodologies, and key findings.
 
-## Project 2 - [Efficient Frontier
-](Efficient-Frontier)
+## Project 2 - [EF](Efficient_Frontier)
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. The code implements and analayzes an efficient portfolio. 
 
-## Project 3 - [Final Project](Final-Project)
+## Project 3 - [Final](Final-Project)
 
 Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy, backtested the data. The project serves as a culmination of the skills and knowledge acquired throughout the semester.
 
