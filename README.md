@@ -7,7 +7,7 @@ Welcome to our Quantitative Finance repository for the Fall 2023 semester. This 
 
 Description: This project explores different metrics to help construct a risk analysis on seven stocks. We include metrics such as volatility, beta, returns, correlation, covariance, and even sharpe ratio when comparing them to major ETFs. Overall the goal is to display a risk analysis of equally weighted weighted stocks. In addition, another goal was to display the correlation matrix highlighting the correlation between the ours stocks and the 3 ETFs.
 
-Note: Project one has its own repository. Currently working on moving it to this repository.
+Note: Project one has its own repository. 
 
 [Link to repository.](https://github.com/CCNY-Analytics-and-Quant/Portfolio-analysis-2/tree/main)
 
