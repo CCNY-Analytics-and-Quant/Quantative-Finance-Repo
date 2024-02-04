@@ -11,17 +11,14 @@ Note: Project one has its own repository. Currently working on moving it to this
 
 [Link to repository.](https://github.com/CCNY-Analytics-and-Quant/Portfolio-analysis-2/tree/main)
 
-## Project 2 - [Efficient Frontier](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/EF/Efficient_Frontier.ipynb)
+## Project 2 - [Efficient Frontier](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Efficient-Frontier/Efficient_Frontier.ipynb)
 
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. We explore how our selection of seven assets by calculating their individual risk/return value. Furthermore, these results get combined into the efficient frontier. The code implements and analayzes an efficient portfolio. 
 
-[Link to repository.](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/tree/main/EF)
-
-## Project 3 - [Final Project](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Final/final_project.ipynb)
+## Project 3 - [Berry Cox Price Momentum Factors]([https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Final/final_project.ipynb](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/final_project.ipynb)
 
 Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used Berry Cox's price momentum factors to select basket of assets for a long-short portfolio. 
 
-[Link to repository.](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/tree/main/Final)
 
 ## Usage
 
