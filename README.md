@@ -1,7 +1,7 @@
 # Quantitative Finance - FALL 2023 README
 ### Jean Batista & Alex Guerrero
 
-Welcome to our Quantitative Finance repository for the Fall 2023 semester. This repository contains the projects and resources for this course. Below we highlight the three projects with a brief overview.
+Fall 2023, we worked on three projects involving portfolio management.
 
 ## Project 1 - [Portfolio Analysis](https://github.com/CCNY-Analytics-and-Quant/Portfolio-analysis-2/blob/main/Portfolio_Analysis.ipynb)
 
