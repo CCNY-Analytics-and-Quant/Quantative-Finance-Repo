@@ -17,7 +17,7 @@ Description: This project explore the concenpt of the Efficient Frontier and por
 
 ## Project 3 - [Portfolio Management- Earnings and risk-management with momentum factors and Monte-carlo simulation for weights](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/final_project.ipynb)
 
-Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used Berry Cox's price momentum factors to select basket of assets for a long-short portfolio. 
+Description: This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used a set of factors to select basket of assets for a long-short portfolio and visualized the returns. 
 
 
 ## Usage
