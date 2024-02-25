@@ -1,7 +1,7 @@
 # Quantitative Finance - FALL 2023 README
 ### Jean Batista & Alex Guerrero
 
-Welcome to our Quantitative Finance repository for the Fall 2023 semester. This repository contains the projects and resources for this course. Below we highlight the three projects with a brief overview.
+Fall 2023, we worked on three projects involving portfolio management.
 
 ## Project 1 - [Portfolio Analysis](https://github.com/CCNY-Analytics-and-Quant/Portfolio-analysis-2/blob/main/Portfolio_Analysis.ipynb)
 
@@ -15,9 +15,9 @@ Note: Project one has its own repository.
 
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. We explore how our selection of seven assets by calculating their individual risk/return value. Furthermore, these results get combined into the efficient frontier. The code implements and analayzes an efficient portfolio. 
 
-## Project 3 - [Berry Cox Price Momentum Factors](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/final_project.ipynb)
+## Project 3 - [Portfolio Management- Earnings and risk-management with momentum factors and Monte-carlo simulation for weights](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/final_project.ipynb)
 
-Description: The final project is a collaboration of previous projects. This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used Berry Cox's price momentum factors to select basket of assets for a long-short portfolio. 
+Description: This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used a set of factors to select basket of assets for a long-short portfolio and visualized the returns. 
 
 
 ## Usage
