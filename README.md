@@ -15,7 +15,7 @@ Note: Project one has its own repository.
 
 Description: This project explore the concenpt of the Efficient Frontier and portfolio optimization. We explore how our selection of seven assets by calculating their individual risk/return value. Furthermore, these results get combined into the efficient frontier. The code implements and analayzes an efficient portfolio. 
 
-## Project 3 - [Portfolio Management- Earnings and risk-management with momentum factors and Monte-carlo simulation for weights](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/final_project.ipynb)
+## Project 3 - [Portfolio Management- Earnings and risk-management with momentum factors and Monte-carlo simulation for weights](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/auto_portfolio_picks.ipynb)
 
 Description: This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used a set of factors to select basket of assets for a long-short portfolio and visualized the returns. 
 
