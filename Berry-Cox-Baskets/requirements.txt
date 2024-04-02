@@ -2,5 +2,4 @@ pandas
 numpy
 yfinance
 urllib3==1.25.11
-matplotlib
 openpyxl
