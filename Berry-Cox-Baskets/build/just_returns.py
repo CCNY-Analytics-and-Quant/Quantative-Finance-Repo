@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import numpy as np
 import yfinance as yf
@@ -34,13 +32,20 @@ def lambda_handler(event, context):
     'NVR': 0.022550, 'ENPH': 0.073423, 'BLDR': 0.019092, 'CMG': 0.022661,
     'AZO': 0.244763, 'AMD': 0.048099}
 
+    equal_weights = {
+    'TSLA': 0.1, 'MRNA': 0.1, 'NVDA': 0.1, 'SMCI': 0.1,
+    'NVR': 0.1, 'ENPH': 0.1, 'BLDR': 0.1, 'CMG': 0.1,
+    'AZO': 0.1, 'AMD': 0.1}
+
     
     # Calculate daily portfolio returns for both scenarios
+    portfolio_returns_equal_weights = (yf_data.pct_change() * pd.Series(equal_weights)).sum(axis=1)
     portfolio_returns_minimal_risk = (yf_data.pct_change() * pd.Series(weights_minimal_risk)).sum(axis=1)
     portfolio_returns_maximum_risk = (yf_data.pct_change() * pd.Series(weights_maximum_risk)).sum(axis=1)
 
 
     # Calculate cumulative returns to see the overall performance
+    cumulative_returns_equal_weights = ((1 + portfolio_returns_equal_weights).cumprod() - 1)*100
     cumulative_returns_minimal_risk = ((1 + portfolio_returns_minimal_risk).cumprod() - 1)*100
     cumulative_returns_maximum_risk = ((1 + portfolio_returns_maximum_risk).cumprod() - 1)*100
 
@@ -52,10 +57,14 @@ def lambda_handler(event, context):
     
     
     output_data = {
+        "Equal Weights Portfolio Returns": cumulative_returns_equal_weights[-1],
+        "Equal Weights Portfolio Average Weekly Returns": cumulative_returns_equal_weights[-1] / weeks,
         "Max Risk Portfolio Returns": cumulative_returns_maximum_risk[-1],
         "Max Risk Portfolio Average Weekly Returns": cumulative_returns_maximum_risk[-1] / weeks,
         "Min Risk Portfolio Returns": cumulative_returns_minimal_risk[-1],
         "Min Risk Portfolio Average Weekly Returns": cumulative_returns_minimal_risk[-1] / weeks,
+        "Difference in Returns between Max-Risk and Equal-Weight Portfolios": cumulative_returns_maximum_risk[-1] - cumulative_returns_equal_weights[-1],
+        "Difference in Returns between Max-Risk and Equal-Weight Portfolios (Weekly)": (cumulative_returns_maximum_risk[-1] - cumulative_returns_equal_weights[-1]) / weeks
     }
 
     # Convert your data to JSON format
