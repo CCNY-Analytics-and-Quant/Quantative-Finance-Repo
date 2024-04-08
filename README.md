@@ -18,6 +18,7 @@ Description: This project explore the concenpt of the Efficient Frontier and por
 ## Project 3 - [Portfolio Management- Earnings and risk-management with momentum factors and Monte-carlo simulation for weights](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/auto_portfolio_picks.ipynb)
 
 Description: This notebook shows how we created an effective trading strategy and backtest the data to check the performance of the algorithm. We used a set of factors to select basket of assets for a long-short portfolio and visualized the returns. 
+This python script ---> [Script](https://github.com/CCNY-Analytics-and-Quant/Quantative-Finance-Repo/blob/main/Berry-Cox-Baskets/lambda-env/Lib/site-packages/just_returns.py) automates daily updates to my site (Website- Jbatist)[http://jbatist.com] with how the stocks have performed since project completion.
 
 
 ## Usage
